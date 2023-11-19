@@ -58,6 +58,26 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      fontSize: {
+        "sub-title": [
+          "0.8125rem",
+          { lineHeight: "1.5625rem", letterSpacing: "0.0625rem" },
+        ],
+        overline: [
+          "0.875rem",
+          { lineHeight: "1.1875rem", letterSpacing: "0.625rem" },
+        ],
+        body: ["0.9375rem", { lineHeight: "1.5625rem" }],
+        h1: ["3.5rem", { lineHeight: "3.625rem", letterSpacing: "0.125rem" }],
+        h2: ["2.5rem", { lineHeight: "2.75rem", letterSpacing: "0.09375rem" }],
+        h3: ["2rem", { lineHeight: "2.25rem", letterSpacing: "0.071875rem" }],
+        h4: ["1.75rem", { lineHeight: "2.375rem", letterSpacing: "1.5625rem" }],
+        h5: [
+          "1.5rem",
+          { lineHeight: "2.0625rem", letterSpacing: "0.10625rem" },
+        ],
+        h6: ["1.125rem", { lineHeight: "1.5rem", letterSpacing: "0.08125rem" }],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -81,4 +101,3 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 };
-
